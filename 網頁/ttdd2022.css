@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    width: 100vw;
+    background-image: url("IMG_8181.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-position:bottom 1000px; 
+    background-attachment: fixed;
+  
+    
+}
+
+
+/* .bgimg{
+    width: 100vw;
+    position:fixed; 
+問題：fixed 會讓圖片直接放置於最前方，以致於後面文字跟作品都看不見
+    top:0px;
+    
+}   */
+
+.homePicDiv{
+    /* margin: auto; */
+    /* margin不知為啥在這裡沒有用 */
+    padding: 10%;
+    margin-top: 80%;
+    /* 現在在中間是因為我射的參數100px看起來剛好在中間 */
+     
+      display: flex;  
+      flex-direction: row;
+     justify-content: space-between;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    gap:200px 30px ;
+    /* 整組沒用 */
+
+
+}
+.homePic{
+    width:30%;
+    height:30%;
+   
+}
+
+.sketch{
+    width:50%;
+    height:50%;
+}
+/* .section{
+display:flex;
+    flex-direction: column;
+} */
+
