@@ -31,11 +31,13 @@ body{
 .project_02{
     position: absolute;
     top:150%;
+    /* background-color: blue; */
 }
 
 .project_05{
     position: absolute;
     top:250%;
+    /* background-color: red; */
 }
 
 .project_10{
