@@ -2,10 +2,14 @@ html {
     width: 100vh;
     background-image: url("IMG_8181.png");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     /* background-position: bottom 1000px; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 
 }
 
