@@ -1,12 +1,23 @@
-body {
-    margin: 0px;
-    width: 100vw;
+html {
+    width: 100vh;
     background-image: url("IMG_8181.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* background-position: bottom 1000px; */
     background-attachment: fixed;
+
+}
+
+body {
+    margin: 0px;
+    width: 100vw;
+    /* background-image: url("IMG_8181.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-attachment: fixed; */
 
 
 }
