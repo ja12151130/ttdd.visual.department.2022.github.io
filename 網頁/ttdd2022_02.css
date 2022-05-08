@@ -1,14 +1,14 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
     width: 30%;
     background-image: url("IMG_8181.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center ;
-    background-position:bottom 1000px; 
+    background-position: center;
+    background-position: bottom 1000px;
     background-attachment: fixed;
-  
-    
+
+
 }
 
 /* .content{
@@ -17,61 +17,78 @@ body{
     width:80vw;
     padding:20% 30% 30% 20%;
 } */
-.project_01{
+.project_01 {
     position: absolute;
-    top:50%;
+    top: 50%;
 
-     /* margin-top: 30%;  */
+    /* margin-top: 30%;  */
     /* padding-top:35%;  */
     stroke-width: 10px;
     /* background-color: red; */
     /* 為什麼只有第一個有作用？ */
 }
 
-.project_02{
+.project_02 {
     position: absolute;
-    top:150%;
+    top: 130%;
     /* background-color: blue; */
 }
 
-.project_05{
+.project_03 {
     position: absolute;
-    top:250%;
+    top: 325%;
     /* background-color: red; */
 }
 
-.project_10{
+.project_05 {
     position: absolute;
-    top:330%;
+    top: 430%;
+    /* background-color: red; */
 }
 
-.project_11{
+.project_10 {
     position: absolute;
-    top:400%;
+    top: 550%;
 }
 
-.project_12{
+.project_11 {
     position: absolute;
-    top:480%;
+    top: 680%;
 }
 
-.project_13{
+.project_12 {
     position: absolute;
-    top:600%;
+    top: 730%;
 }
 
-.project_15{
+.project_13 {
     position: absolute;
-    top:700%;
+    top: 980%;
 }
 
-.project_16{
+.project_14 {
     position: absolute;
-    top:850%;
+    top: 1155%;
 }
-.contentPic{
+
+.project_15 {
+    position: absolute;
+    top: 1280%;
+}
+
+.project_16 {
+    position: absolute;
+    top: 1400%;
+}
+
+.contentPic {
 
     position: absolute;
+}
+
+.rotate90 {
+
+    transform: rotate(90deg);
 }
 
 /* .homePicDiv{
@@ -100,4 +117,3 @@ body{
     width:50%;
     height:50%;
 } */
-
