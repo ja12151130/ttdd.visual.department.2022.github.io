@@ -29,10 +29,10 @@ body {
 }
 
 .page_container {
-    position: relative;
+    /* position: relative; */
     overflow: visible;
     width: 100%;
-    display: block;
+    display: flex;
 }
 
 /* .content{
