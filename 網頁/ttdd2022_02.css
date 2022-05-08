@@ -5,10 +5,34 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-position: bottom 1000px;
+    /* background-position: bottom 1000px; */
     background-attachment: fixed;
 
 
+}
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.content {
+    -webkit-box-flex: initial;
+    flex: 1 0 auto;
+    max-width: 100%;
+    display: block;
+
+}
+
+.displayTest {
+    display: block;
+}
+
+.page_container {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    display: block;
 }
 
 /* .content{
