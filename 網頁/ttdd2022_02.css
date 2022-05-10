@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    /* display: block; */
+}
+
 html {
     width: 100vw;
+
     /* background-image: url("IMG_8181.png"); */
 
     /* background-size: cover;
@@ -12,14 +19,12 @@ html {
     -o-background-size: cover; */
     /* background-position: bottom 1000px; */
     /* background-attachment: fixed; 
-    fixed 在手機上跟平板上會有bug 好鳥*/
-
-}
-
-html {
+    background fixed 在手機上跟平板上會有bug 好鳥*/
     overflow: scroll;
     overflow-x: hidden;
 }
+
+
 
 ::-webkit-scrollbar {
     width: 0;
@@ -48,141 +53,60 @@ body:before {
 body {
     margin: 0px;
     width: 100vw;
-    /* background-image: url("IMG_8181.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-    background-attachment: fixed; */
-
-
 }
 
-* {
-    box-sizing: border-box;
-    width: 100%;
-}
+
+
 
 .container {
-    width: 100vw;
-    min-height: 100vh;
+    width: 90vw;
+    min-height: 50vh;
+    margin: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.displayTest {
-    display: block;
+.outer_image_container {
+    position: relative;
+    width: 100%;
+
+
+
 }
 
-.page_container {
-    /* position: relative; */
+.image_container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+
+}
+
+/* .page_container {
+    position: relative;
     overflow: visible;
     width: 100%;
     display: flex;
-}
-
-/* .content{
-    margin: auto;
-   
-    width:80vw;
-    padding:20% 30% 30% 20%;
 } */
-.project_01 {
-    position: absolute;
-    top: 50%;
 
-    /* margin-top: 30%;  */
-    /* padding-top:35%;  */
-    stroke-width: 10px;
-    /* background-color: red; */
-    /* 為什麼只有第一個有作用？ */
-}
 
-.project_02 {
-    position: absolute;
-    top: 130%;
-    /* background-color: blue; */
-}
 
-.project_03 {
-    position: absolute;
-    top: 325%;
-    /* background-color: red; */
-}
-
-.project_05 {
-    position: absolute;
-    top: 430%;
-    /* background-color: red; */
-}
-
-.project_10 {
-    position: absolute;
-    top: 550%;
-}
-
-.project_11 {
-    position: absolute;
-    /* top: 680%; */
-}
-
-.project_12 {
-    position: absolute;
-    top: 730%;
-}
-
-.project_13 {
-    position: absolute;
-    top: 980%;
-}
-
-.project_14 {
-    position: absolute;
-    top: 1155%;
-}
-
-.project_15 {
-    position: absolute;
-    top: 1280%;
-}
-
-.project_16 {
-    position: absolute;
-    top: 1400%;
-}
 
 .contentPic {
 
     position: absolute;
+    /* transform-origin: inherit; */
+
 }
 
-.rotate90 {
+.pos_relative {
+    position: relative;
+}
+
+/* .rotate90 {
 
     transform: rotate(90deg);
-}
-
-/* .homePicDiv{
-    
-    padding: 10%;
-    margin-top: 80%;
-    現在在中間是因為我射的參數100px看起來剛好在中間
-     
-      display: flex;  
-      flex-direction: row;
-     justify-content: space-between;
-    
-    flex-wrap: wrap;
-    align-items: center;
-    gap:200px 30px ;
-  
-
-}
-.homePic{
-    width:30%;
-    height:30%;
-   
-}
-
-.sketch{
-    width:50%;
-    height:50%;
 } */

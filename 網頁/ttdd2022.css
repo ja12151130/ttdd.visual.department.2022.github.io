@@ -1,15 +1,15 @@
-body{
-    margin:0px;
+/* body {
+    margin: 0px;
     width: 100vw;
     background-image: url("IMG_8181.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center ;
-    background-position:bottom 1000px; 
+    background-position: center;
+    background-position: bottom 1000px;
     background-attachment: fixed;
-  
-    
-}
+
+
+} */
 
 
 /* .bgimg{
@@ -20,36 +20,41 @@ body{
     
 }   */
 
-.homePicDiv{
+.homePicDiv {
     /* margin: auto; */
     /* margin不知為啥在這裡沒有用 */
     padding: 10%;
     margin-top: 80%;
     /* 現在在中間是因為我射的參數100px看起來剛好在中間 */
-     
-      display: flex;  
-      flex-direction: row;
-     justify-content: space-between;
-    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     flex-wrap: wrap;
     align-items: center;
-    gap:200px 30px ;
+    gap: 200px 30px;
     /* 整組沒用 */
 
 
 }
-.homePic{
-    width:30%;
-    height:30%;
-   
+
+.homePic {
+    width: 30%;
+    height: 30%;
+
 }
 
-.sketch{
-    width:50%;
-    height:50%;
+.sketch {
+    width: 50%;
+    height: 50%;
 }
+
 /* .section{
 display:flex;
     flex-direction: column;
 } */
 
+.ab {
+    position: absolute;
+}
