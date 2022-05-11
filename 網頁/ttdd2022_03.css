@@ -60,13 +60,14 @@ body:before {
 body {
     margin: 0px;
     width: 100vw;
+    margin-top: 30vh;
 }
 
 
 
 
 .container {
-    width: 90vw;
+    width: 100vw;
     min-height: 100vh;
     margin: auto;
     position: relative;
@@ -75,15 +76,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .outer_image_container {
     position: relative;
     width: 100vw;
-
-    /* min-height: 100vh; */
-    /* min-height: 80vh; */
-
 
 
 }
@@ -91,24 +89,10 @@ body {
 .image_container {
     position: relative;
     width: 100%;
-    /* min-height: 60vh;
-    max-height: 100vh; */
-    /* transform-origin: inherit; */
     display: flex;
     flex-direction: column;
 }
 
-/* .page_container {
-    position: relative;
-    overflow: visible;
-    width: 100%;
-    display: flex;
-} */
-
-
-/* .project02 {
-    position: absolute;
-} */
 
 .contentPic {
 
